@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-Dc_MegVo.js","./index-Cbt1-Ncd.js","./index-BEirPvha.css"])))=>i.map(i=>d[i]);
+import{r as e,t}from"./index-Cbt1-Ncd.js";var n;(function(e){e[e.Flush=0]=`Flush`,e[e.Add=1]=`Add`})(n||(n={}));var r=e(`TextToSpeech`,{web:()=>t(()=>import(`./web-Dc_MegVo.js`).then(e=>new e.TextToSpeechWeb),__vite__mapDeps([0,1,2]),import.meta.url)});`speechSynthesis`in window&&window.speechSynthesis;export{r as TextToSpeech};
